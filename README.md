@@ -3,9 +3,9 @@
 ### ![Deployed Application](#)
 ### ![GitHub Repository](#)
 // Screenshots //
-#### Challenge:
+### Challenge:
 An employee with access to sensitive data wants to randomly generate a password that meets certain criteria to create a strong password that provides greater security.
-#### Acceptance Criteria:
+### Acceptance Criteria:
 >GIVEN I need a new, secure password
 >WHEN I click the button to generate a password
 >THEN I am presented with a series of prompts for password criteria
@@ -21,14 +21,14 @@ An employee with access to sensitive data wants to randomly generate a password 
 >THEN a password is generated that matches the selected criteria
 >WHEN the password is generated
 >THEN the password is either displayed in an alert or written to the page
-### Grading Requirements:
-#### Technical Acceptance Criteria: 40%
+## Grading Requirements:
+### Technical Acceptance Criteria: 40%
 
 * Satisfies all of the above acceptance criteria plus the following:
 
 * The Challenge should not produce any errors in the console when you inspect it using Chrome DevTools.
 
-#### Deployment: 32%
+### Deployment: 32%
 * Application deployed at live URL.
 
 * Application loads with no errors.
@@ -37,14 +37,14 @@ An employee with access to sensitive data wants to randomly generate a password 
 
 * GitHub repository that contains application code.
 
-#### Application Quality: 15%
+### Application Quality: 15%
 * Application user experience is intuitive and easy to navigate.
 
 * Application user interface style is clean and polished.
 
 * Application resembles the mock-up functionality provided in the Challenge instructions.
 
-#### Repository Quality: 13%
+### Repository Quality: 13%
 * Repository has a unique name.
 
 * Repository follows best practices for file structure and naming conventions.
