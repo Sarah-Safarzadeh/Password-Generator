@@ -4,7 +4,7 @@
 //Assignment code here
   // Password Length Prompt
 window.prompt("Please enter desired password length (must be between 8 - 128 characters).");
-  // Password Character Type Prompts
+  // Password Character Type Alerts
 window.alert("Would you like your password to include lowercase letters? If yes, please select 'ok.' If not, please select 'cancel'");
 window.alert("How do you feel about uppercase letters? If you'd like them in your password, please select 'ok.' If not, please select 'cancel.'");
 window.alert("Do you find passwords with numbers to be more agreeable? To include numbers in your password, please select 'ok.' if not, please select 'cancel.'");
