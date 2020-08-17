@@ -54,3 +54,8 @@ An employee with access to sensitive data wants to randomly generate a password 
 * Repository contains multiple descriptive commit messages.
 
 * Repository contains quality README file with description, screenshot, and link to deployed application.
+
+## Built With: 
+* JavaScript
+* HTML
+* CSS
