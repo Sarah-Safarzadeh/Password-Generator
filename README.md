@@ -1,7 +1,7 @@
 # Password Generator
 ## UT Coding Bootcamp - Week 03 Challenge
-### ![Deployed Application](https://sarah-safarzadeh.github.io/Password-Generator/)
-### ![GitHub Repository](https://github.com/Sarah-Safarzadeh/Password-Generator)
+### [Deployed Application](https://sarah-safarzadeh.github.io/Password-Generator/)
+### [GitHub Repository](https://github.com/Sarah-Safarzadeh/Password-Generator)
 // Screenshots //
 ### Challenge:
 An employee with access to sensitive data wants to randomly generate a password that meets certain criteria to create a strong password that provides greater security.
