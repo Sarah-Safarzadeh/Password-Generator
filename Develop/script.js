@@ -1,6 +1,5 @@
 /* Password Generator will generate and display a randomized password adhering to criteria seclected by the user. */
 
-
 //Assignment code here
 // Password Criteria
 var pwLength
@@ -21,10 +20,20 @@ var generatePassword = function () {
   };
 
   // Password Character Type Confirms
-  window.confirm("Would you like your password to include lowercase letters? If yes, please select 'ok.' If not, please select 'cancel.'");
-  window.confirm("How do you feel about uppercase letters? If you'd like them in your password, please select 'ok.' If not, please select 'cancel.'");
-  window.confirm("Do you find passwords with numbers to be more agreeable? To include numbers in your password, please select 'ok.' If not, please select 'cancel.'");
-  window.confirm("Would you like your password to be as special as you are? To add special characters, please select 'ok.' If not, please select 'cancel.'");
+  var uppercase = window.confirm("Would you like your password to include lowercase letters? If yes, please select 'ok.' If not, please select 'cancel.'");
+  var lowercase = window.confirm("How do you feel about uppercase letters? If you'd like them in your password, please select 'ok.' If not, please select 'cancel.'");
+  var numbers = window.confirm("Do you find passwords with numbers to be more agreeable? To include numbers in your password, please select 'ok.' If not, please select 'cancel.'");
+  var sChars = window.confirm("Would you like your password to be as special as you are? To add special characters, please select 'ok.' If not, please select 'cancel.'");
+
+
+
+
+var password = "";
+for (var i = 0; i < pwLength; i++) 
+{
+  password += .charAt(Math.floor(Math.random()*all.length));
+}
+return password;
 }
 
 // Get references to the #generate element
