@@ -8,9 +8,6 @@ var ABC = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var num = "0123456789";
 var special = "!#$%&*+-=?@^_~"
 
-// Beginner Guide
-// window.alert("Welcome to Password Generator! Click that red button to get started!");
-
 // Generate Password Function
 var generatePassword = function () {
 
