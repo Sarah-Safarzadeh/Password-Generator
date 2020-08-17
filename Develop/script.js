@@ -8,8 +8,10 @@ var ABC = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var num = "0123456789";
 var special = "!#$%&*+-=?@^_~"
 
+// Beginner Guide
 window.alert("Welcome to Password Generator! Click that red button to get started!");
 
+// Generate Password Function
 var generatePassword = function () {
 
   // Password Length Prompt
@@ -25,15 +27,27 @@ var generatePassword = function () {
   var numbers = window.confirm("Do you find passwords with numbers to be more agreeable? To include numbers in your password, please select 'ok.' If not, please select 'cancel.'");
   var sChars = window.confirm("Would you like your password to be as special as you are? To add special characters, please select 'ok.' If not, please select 'cancel.'");
 
+  var pw = '';
 
-
-
-var password = "";
-for (var i = 0; i < pwLength; i++) 
-{
-  password += .charAt(Math.floor(Math.random()*all.length));
-}
-return password;
+  if (lowercase == true) {
+    pw += abc;
+  }
+  if (uppercase == true) {
+    pw += ABC;
+  }
+  if (numbers == true) {
+    pw += num;
+  }
+  if (sChars == true) {
+    pw += special;
+  }
+  
+  // Password For Loop
+  var password = "";
+  for (var i = 0; i < pwLength; i++) {
+    password += pw.charAt(Math.floor(Math.random() * pw.length));
+  }
+  return password;
 }
 
 // Get references to the #generate element
